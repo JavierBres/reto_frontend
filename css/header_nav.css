@@ -1,0 +1,28 @@
+header {
+    background: url(../assets/images/Picos_Europa.jpg) round;
+    width: 100%;
+    min-height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 0.7rem 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0.3rem;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
