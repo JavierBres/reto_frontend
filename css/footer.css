@@ -5,6 +5,14 @@ footer {
     color: #666;
 }
 
+.footer-mail {
+    text-decoration: none;
+}
+
 footer span {
     color: red;
+}
+
+.footer-madeBy {
+    margin-top: 1.5rem;
 }
