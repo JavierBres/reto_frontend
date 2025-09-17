@@ -1,16 +1,30 @@
 .section-cards {
-    margin: 2rem;
+    margin: 6rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .cards h5 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .cards img {
     width: 100%;
     height: 250px;
+    border-radius: 4%;
 }
+
+.cards p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .section-cards {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+}
+
