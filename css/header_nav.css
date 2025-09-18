@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=600&fit=crop&crop=center') center/cover;
+    background: url(../assets/images/Picos_Europa.jpg) round;
     width: 100%;
     min-height: 20vh;
     display: flex;
@@ -27,7 +27,6 @@ header {
 
 header h1 {
     font-size: 3.5rem;
-    color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     font-weight: bold;
     letter-spacing: 2px;
@@ -57,9 +56,8 @@ nav {
 }
 
 .nav-link:hover {
-    color: #ff6b35;
-    background-color: rgba(255,255,255,0.1);
-    transform: translateY(-2px);
+    color: purple;
+    transition: all 0.3s ease;    
 }
 
 .menu-toggle {
@@ -185,7 +183,6 @@ nav {
         transform: scale(1.05);
     }
 }
-
 
 
 @media (max-width: 480px) {
