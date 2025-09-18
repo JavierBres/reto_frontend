@@ -1,18 +1,24 @@
 footer {
+    background: #2c3e50;
+    color: white;
     text-align: center;
     padding: 2rem;
-    background-color: rgba(139, 69,19, 0.1);
-    color: #666;
+}
+
+footer p {
+    margin: 0.5rem 0;
 }
 
 .footer-mail {
+    color: #3498db;
     text-decoration: none;
 }
 
-footer span {
-    color: red;
+.footer-mail:hover {
+    color: tomato;
 }
 
-.footer-madeBy {
-    margin-top: 1.5rem;
+.footer-madeBy span {
+    color: red;
+    font-size: 1.2rem;
 }
