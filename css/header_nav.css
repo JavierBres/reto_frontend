@@ -1,7 +1,7 @@
 header {
     background: url(../assets/images/Picos_Europa.jpg) round;
     width: 100%;
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,11 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     font-weight: bold;
     letter-spacing: 2px;
+    color: #f1f1f1;
 }
 
 nav {
