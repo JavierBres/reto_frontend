@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             .modal-content {
                 background-color: white;
-                margin: 15% auto;
+                margin: 10% auto;
                 padding: 20px;
                 border-radius: 5px;
                 width: 80%;
@@ -72,6 +72,9 @@ document.addEventListener('DOMContentLoaded', function() {
             .close:hover {
                 color: #666;
             }
+            .modal-content h5 {
+                font-size: 1.5rem;
+                }
             .modal-content img {
                 max-width: 100%;
                 height: auto;
