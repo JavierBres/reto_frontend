@@ -27,3 +27,18 @@ footer p {
     color: red;
     font-size: 1.2rem;
 }
+
+@media (width <= 768px) {
+    footer {
+        padding: 0.7rem;
+    }
+
+    footer p {
+        font-size: 1.1rem;
+        margin: 0.2rem 0;
+    }
+
+    .footer-madeBy {
+        margin-top: 1rem;
+    }
+}

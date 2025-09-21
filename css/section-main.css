@@ -34,3 +34,17 @@
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
+
+@media (width <= 768px) {
+    .section-main {
+        padding: 1.5rem 1rem;
+    }
+
+    .section-main h2 {
+        font-size: 2rem;
+    }
+
+    .section-main h4 {
+        font-size: 1.2rem;
+    }
+}
