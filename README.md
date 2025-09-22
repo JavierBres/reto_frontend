@@ -22,6 +22,7 @@ Landing page responsiva que muestra diferentes actividades de montaña. Desarrol
    ```
 2. Abre el archivo `index.html` en tu navegador preferido.
 3. ¡Explora las diferentes actividades de montaña!
+4. 🔗 Enlace para visualizar directamente la página web: https://javierbres.github.io/reto_frontend/
 
 ## 📋 Estructura del Proyecto
 ```

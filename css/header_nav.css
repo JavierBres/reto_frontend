@@ -1,7 +1,7 @@
 header {
     background: url(../assets/images/Picos_Europa.jpg) round;
     width: 100%;
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     font-weight: bold;
     letter-spacing: 2px;
@@ -73,8 +73,8 @@ nav {
     border-radius: 5px;
     border: 2px solid white;
     transition: all 0.3s ease;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -139,8 +139,8 @@ nav {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 70%;
-        height: 100vh;
+        width: 50%;
+        height: 60vh;
         background: linear-gradient(135deg, #2c3e50, #3498db);
         flex-direction: column;
         justify-content: center;
